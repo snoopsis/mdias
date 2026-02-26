@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { LanguageProvider } from "@/i18n/LanguageContext";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Miguel Dias | Fullstack Developer & AI Solutions",
   description:
-    "Fullstack Web Developer specializing in React, Node.js, and AI-integrated solutions. Based in Portugal, building modern web experiences.",
+    "Fullstack Web Developer especializado em React, Node.js e soluções integradas com IA. Baseado em Portugal, a criar experiências web modernas.",
   keywords: [
     "fullstack developer",
     "web developer",
@@ -25,14 +26,17 @@ export const metadata: Metadata = {
     "portugal",
     "freelancer",
     "software engineer",
+    "desenvolvedor web",
+    "inteligência artificial",
   ],
   authors: [{ name: "Miguel Dias" }],
   openGraph: {
     title: "Miguel Dias | Fullstack Developer & AI Solutions",
     description:
-      "Fullstack Web Developer specializing in React, Node.js, and AI-integrated solutions.",
+      "Fullstack Web Developer especializado em React, Node.js e soluções integradas com IA.",
     type: "website",
-    locale: "en_US",
+    locale: "pt_PT",
+    alternateLocale: "en_US",
   },
 };
 
@@ -42,11 +46,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="pt" className="dark" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
   );

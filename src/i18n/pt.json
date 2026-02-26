@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "skills": "Competências",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "contact": "Contacto",
+    "cta": "Vamos Conversar"
+  },
+  "hero": {
+    "badge": "Disponível para novos projetos",
+    "greeting": "Olá, sou",
+    "name": "Miguel Dias",
+    "subtitle": "Fullstack Web Developer a criar aplicações web modernas e performantes com",
+    "subtitleHighlight": "soluções integradas com IA",
+    "subtitleEnd": ". Baseado em Portugal.",
+    "cta1": "Ver Projetos",
+    "cta2": "Entrar em Contacto"
+  },
+  "about": {
+    "label": "01 — Sobre",
+    "title": "Um pouco sobre mim",
+    "p1": "Sou um apaixonado developer fullstack com experiência na criação de aplicações web usando tecnologias modernas. O meu percurso na tecnologia começou como autodidata, e essa curiosidade e vontade de aprender nunca parou.",
+    "p2": "Especializo-me em criar soluções digitais completas — desde frontends responsivos com React e Next.js até backends robustos com Node.js e bases de dados. Recentemente, tenho-me focado em integrar",
+    "p2Highlight": "inteligência artificial",
+    "p2End": " nas aplicações web para entregar produtos mais inteligentes e eficientes.",
+    "p3": "Seja a construir uma plataforma de reservas com processamento de pagamentos, um website com CMS, ou uma aplicação melhorada com IA, trago o mesmo compromisso com código limpo, boa UX e performance fiável.",
+    "highlights": [
+      {
+        "title": "Fullstack Developer",
+        "description": "Construção de soluções web completas, desde interfaces frontend até APIs backend e bases de dados."
+      },
+      {
+        "title": "Integração IA",
+        "description": "Desenvolvimento de soluções inteligentes que utilizam IA para automatizar processos e melhorar experiências."
+      },
+      {
+        "title": "Autodidata",
+        "description": "Aprendiz apaixonado em constante exploração de novas tecnologias, frameworks e boas práticas."
+      },
+      {
+        "title": "Baseado em Portugal",
+        "description": "A trabalhar a partir de Guimarães, Portugal. Disponível para projetos remotos em todo o mundo."
+      }
+    ]
+  },
+  "skills": {
+    "label": "02 — Competências",
+    "title": "Tecnologias com que trabalho",
+    "categories": ["Frontend", "Backend", "Base de Dados & DevOps", "IA & Ferramentas"]
+  },
+  "experience": {
+    "label": "03 — Experiência",
+    "title": "O meu percurso",
+    "items": [
+      {
+        "role": "Fullstack Developer & Soluções IA",
+        "company": "Freelance / Independente",
+        "period": "2023 — Presente",
+        "description": "Construção de aplicações web completas com integração de IA. Desenvolvimento de plataformas de reservas, websites com CMS e sistemas de pagamento usando Next.js, Strapi, Stripe e APIs modernas de IA."
+      },
+      {
+        "role": "Web Developer",
+        "company": "Projetos Freelance",
+        "period": "2020 — 2023",
+        "description": "Desenvolvimento de aplicações web personalizadas para clientes, incluindo plataformas comunitárias, painéis de administração, sistemas CRUD e soluções de e-commerce usando React e Node.js."
+      },
+      {
+        "role": "Developer Autodidata",
+        "company": "Aprendizagem Contínua",
+        "period": "2019 — 2020",
+        "description": "Início do percurso no desenvolvimento web através de auto-aprendizagem. Construção de projetos fundamentais para dominar HTML, CSS, JavaScript, PHP e frameworks modernos. Criação de tutoriais no YouTube para partilhar conhecimento."
+      }
+    ]
+  },
+  "projects": {
+    "label": "04 — Projetos",
+    "title": "Trabalhos selecionados",
+    "subtitle": "Uma seleção de projetos que demonstram as minhas competências em desenvolvimento fullstack e integração de IA.",
+    "github": "Ver mais no GitHub",
+    "items": [
+      {
+        "title": "Sopro Binario",
+        "description": "Plataforma completa de reservas de transporte TVDE com integração de pagamentos Stripe, notificações por email e backend Strapi CMS. Deployed no Vercel + Railway."
+      },
+      {
+        "title": "AI-Powered Web Solutions",
+        "description": "Construção de aplicações web melhoradas com capacidades de IA — desde chatbots inteligentes até geração automática de conteúdo e pipelines de processamento de dados."
+      },
+      {
+        "title": "React CRUD com Material UI",
+        "description": "Aplicação CRUD completa construída com React e Material UI, com gestão de utilizadores, validação de dados e design responsivo."
+      },
+      {
+        "title": "Sistema de Autenticação",
+        "description": "Sistema de autenticação e registo de utilizadores com frontend React, fluxos seguros de login/registo e gestão de sessões."
+      },
+      {
+        "title": "Plataforma Comunitária CPMVE",
+        "description": "Website comunitário para proprietários de Micro Veículos Elétricos em Portugal, com partilha de informação e funcionalidades de envolvimento."
+      },
+      {
+        "title": "PHP MVC Framework",
+        "description": "Framework MVC personalizado construído de raiz em PHP, demonstrando profundo conhecimento de padrões de design e arquitetura web."
+      }
+    ]
+  },
+  "contact": {
+    "label": "05 — Contacto",
+    "title": "Vamos trabalhar juntos",
+    "subtitle": "Tem um projeto em mente ou quer discutir uma oportunidade? Adoraria ouvir a sua proposta.",
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "O seu nome",
+      "email": "Email",
+      "emailPlaceholder": "o-seu@email.com",
+      "message": "Mensagem",
+      "messagePlaceholder": "Fale-me sobre o seu projeto...",
+      "send": "Enviar Mensagem",
+      "sent": "Mensagem aberta no cliente de email!"
+    },
+    "info": {
+      "email": "Email",
+      "location": "Localização",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
+  "footer": {
+    "copyright": "Miguel Dias. Construído com Next.js & Tailwind CSS."
+  }
+}

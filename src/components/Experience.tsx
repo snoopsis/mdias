@@ -2,35 +2,17 @@
 
 import { motion } from "framer-motion";
 import { Briefcase, Calendar } from "lucide-react";
+import { useTranslation } from "@/i18n/LanguageContext";
 
-const experiences = [
-  {
-    role: "Fullstack Developer & AI Solutions",
-    company: "Freelance / Self-Employed",
-    period: "2023 — Present",
-    description:
-      "Building complete web applications with AI integration. Developing booking platforms, CMS-powered websites, and payment systems using Next.js, Strapi, Stripe, and modern AI APIs.",
-    tech: ["Next.js", "TypeScript", "Strapi", "Stripe", "AI APIs", "PostgreSQL"],
-  },
-  {
-    role: "Web Developer",
-    company: "Freelance Projects",
-    period: "2020 — 2023",
-    description:
-      "Developed custom web applications for clients including community platforms, admin dashboards, CRUD systems, and e-commerce solutions using React and Node.js.",
-    tech: ["React", "Node.js", "Material UI", "MongoDB", "PHP", "WordPress"],
-  },
-  {
-    role: "Self-Taught Developer",
-    company: "Continuous Learning",
-    period: "2019 — 2020",
-    description:
-      "Started the journey into web development through self-learning. Built foundational projects to master HTML, CSS, JavaScript, PHP, and modern frameworks. Created YouTube tutorials to share knowledge.",
-    tech: ["JavaScript", "HTML/CSS", "PHP", "MySQL", "Git", "Linux"],
-  },
+const techStacks = [
+  ["Next.js", "TypeScript", "Strapi", "Stripe", "AI APIs", "PostgreSQL"],
+  ["React", "Node.js", "Material UI", "MongoDB", "PHP", "WordPress"],
+  ["JavaScript", "HTML/CSS", "PHP", "MySQL", "Git", "Linux"],
 ];
 
 export default function Experience() {
+  const { t } = useTranslation();
+
   return (
     <section id="experience" className="py-24 px-6 border-t border-card-border">
       <div className="max-w-6xl mx-auto">
@@ -41,28 +23,26 @@ export default function Experience() {
           transition={{ duration: 0.6 }}
         >
           <p className="text-sm text-accent font-mono mb-2">
-            03 — Experience
+            {t.experience.label}
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">
-            Where I&apos;ve been
+            {t.experience.title}
           </h2>
         </motion.div>
 
         <div className="mt-12 relative">
-          {/* Timeline line */}
           <div className="absolute left-0 md:left-8 top-0 bottom-0 w-px bg-card-border" />
 
           <div className="space-y-10">
-            {experiences.map((exp, i) => (
+            {t.experience.items.map((exp, i) => (
               <motion.div
-                key={exp.role}
+                key={i}
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.5, delay: 0.15 * i }}
                 className="relative pl-8 md:pl-20"
               >
-                {/* Timeline dot */}
                 <div className="absolute left-0 md:left-8 top-1 w-px h-px">
                   <div className="absolute -left-[5px] -top-[5px] w-[11px] h-[11px] rounded-full border-2 border-accent bg-background" />
                 </div>
@@ -87,12 +67,12 @@ export default function Experience() {
                     {exp.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    {exp.tech.map((t) => (
+                    {techStacks[i]?.map((tech) => (
                       <span
-                        key={t}
+                        key={tech}
                         className="text-[11px] font-mono px-2 py-0.5 rounded-md bg-accent/5 text-accent/70 border border-accent/10"
                       >
-                        {t}
+                        {tech}
                       </span>
                     ))}
                   </div>

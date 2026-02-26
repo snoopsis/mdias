@@ -2,11 +2,13 @@
 
 import { motion } from "framer-motion";
 import { ArrowDown, GithubIcon as Github, LinkedinIcon as Linkedin, Mail } from "lucide-react";
+import { useTranslation } from "@/i18n/LanguageContext";
 
 export default function Hero() {
+  const { t } = useTranslation();
+
   return (
     <section className="relative min-h-screen flex items-center justify-center grid-bg overflow-hidden">
-      {/* Gradient orbs */}
       <div className="absolute top-1/4 -left-32 w-96 h-96 bg-accent/10 rounded-full blur-[128px] pointer-events-none" />
       <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-purple-500/10 rounded-full blur-[128px] pointer-events-none" />
 
@@ -18,7 +20,7 @@ export default function Hero() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-8 rounded-full border border-card-border bg-card/50 text-sm text-muted">
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-            Available for new projects
+            {t.hero.badge}
           </div>
         </motion.div>
 
@@ -28,8 +30,8 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight leading-tight"
         >
-          Hi, I&apos;m{" "}
-          <span className="gradient-text">Miguel Dias</span>
+          {t.hero.greeting}{" "}
+          <span className="gradient-text">{t.hero.name}</span>
         </motion.h1>
 
         <motion.p
@@ -38,9 +40,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="mt-6 text-lg sm:text-xl text-muted max-w-2xl mx-auto leading-relaxed"
         >
-          Fullstack Web Developer building modern, performant web applications
-          with <span className="text-foreground">AI-integrated solutions</span>.
-          Based in Portugal.
+          {t.hero.subtitle}{" "}
+          <span className="text-foreground">{t.hero.subtitleHighlight}</span>
+          {t.hero.subtitleEnd}
         </motion.p>
 
         <motion.div
@@ -49,17 +51,11 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <a
-            href="#projects"
-            className="px-6 py-3 rounded-lg bg-accent text-white font-medium hover:bg-accent-light transition-colors duration-200"
-          >
-            View My Work
+          <a href="#projects" className="px-6 py-3 rounded-lg bg-accent text-white font-medium hover:bg-accent-light transition-colors duration-200">
+            {t.hero.cta1}
           </a>
-          <a
-            href="#contact"
-            className="px-6 py-3 rounded-lg border border-card-border text-muted hover:text-foreground hover:border-muted transition-colors duration-200"
-          >
-            Get in Touch
+          <a href="#contact" className="px-6 py-3 rounded-lg border border-card-border text-muted hover:text-foreground hover:border-muted transition-colors duration-200">
+            {t.hero.cta2}
           </a>
         </motion.div>
 
@@ -69,31 +65,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 1 }}
           className="mt-12 flex items-center justify-center gap-5"
         >
-          <a
-            href="https://github.com/snoopsis"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-muted hover:text-foreground transition-colors duration-200"
-            aria-label="GitHub"
-          >
-            <Github size={20} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/migueldev/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-muted hover:text-foreground transition-colors duration-200"
-            aria-label="LinkedIn"
-          >
-            <Linkedin size={20} />
-          </a>
-          <a
-            href="mailto:migueledias@gmail.com"
-            className="text-muted hover:text-foreground transition-colors duration-200"
-            aria-label="Email"
-          >
-            <Mail size={20} />
-          </a>
+          <a href="https://github.com/snoopsis" target="_blank" rel="noopener noreferrer" className="text-muted hover:text-foreground transition-colors duration-200" aria-label="GitHub"><Github size={20} /></a>
+          <a href="https://www.linkedin.com/in/migueldev/" target="_blank" rel="noopener noreferrer" className="text-muted hover:text-foreground transition-colors duration-200" aria-label="LinkedIn"><Linkedin size={20} /></a>
+          <a href="mailto:migueledias@gmail.com" className="text-muted hover:text-foreground transition-colors duration-200" aria-label="Email"><Mail size={20} /></a>
         </motion.div>
 
         <motion.div

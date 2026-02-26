@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cta": "Let's Talk"
+  },
+  "hero": {
+    "badge": "Available for new projects",
+    "greeting": "Hi, I'm",
+    "name": "Miguel Dias",
+    "subtitle": "Fullstack Web Developer building modern, performant web applications with",
+    "subtitleHighlight": "AI-integrated solutions",
+    "subtitleEnd": ". Based in Portugal.",
+    "cta1": "View My Work",
+    "cta2": "Get in Touch"
+  },
+  "about": {
+    "label": "01 — About",
+    "title": "A bit about me",
+    "p1": "I'm a passionate fullstack web developer with experience building web applications using modern technologies. My journey in tech started as a self-taught developer, and that curiosity and drive to learn has never stopped.",
+    "p2": "I specialize in creating complete digital solutions — from responsive frontends with React and Next.js to robust backends with Node.js and databases. Recently, I've been focused on integrating",
+    "p2Highlight": "artificial intelligence",
+    "p2End": " into web applications to deliver smarter, more efficient products.",
+    "p3": "Whether it's building a booking platform with payment processing, a CMS-powered website, or an AI-enhanced application, I bring the same commitment to clean code, great UX, and reliable performance.",
+    "highlights": [
+      {
+        "title": "Fullstack Developer",
+        "description": "Building complete web solutions from frontend interfaces to backend APIs and databases."
+      },
+      {
+        "title": "AI Integration",
+        "description": "Developing intelligent solutions that leverage AI to automate processes and enhance user experiences."
+      },
+      {
+        "title": "Self-Taught",
+        "description": "Passionate learner constantly exploring new technologies, frameworks, and best practices."
+      },
+      {
+        "title": "Portugal Based",
+        "description": "Working from Guimaraes, Portugal. Available for remote projects worldwide."
+      }
+    ]
+  },
+  "skills": {
+    "label": "02 — Skills",
+    "title": "Technologies I work with",
+    "categories": ["Frontend", "Backend", "Database & DevOps", "AI & Tools"]
+  },
+  "experience": {
+    "label": "03 — Experience",
+    "title": "Where I've been",
+    "items": [
+      {
+        "role": "Fullstack Developer & AI Solutions",
+        "company": "Freelance / Self-Employed",
+        "period": "2023 — Present",
+        "description": "Building complete web applications with AI integration. Developing booking platforms, CMS-powered websites, and payment systems using Next.js, Strapi, Stripe, and modern AI APIs."
+      },
+      {
+        "role": "Web Developer",
+        "company": "Freelance Projects",
+        "period": "2020 — 2023",
+        "description": "Developed custom web applications for clients including community platforms, admin dashboards, CRUD systems, and e-commerce solutions using React and Node.js."
+      },
+      {
+        "role": "Self-Taught Developer",
+        "company": "Continuous Learning",
+        "period": "2019 — 2020",
+        "description": "Started the journey into web development through self-learning. Built foundational projects to master HTML, CSS, JavaScript, PHP, and modern frameworks. Created YouTube tutorials to share knowledge."
+      }
+    ]
+  },
+  "projects": {
+    "label": "04 — Projects",
+    "title": "Selected work",
+    "subtitle": "A selection of projects that showcase my skills in fullstack development and AI integration.",
+    "github": "See more on GitHub",
+    "items": [
+      {
+        "title": "Sopro Binario",
+        "description": "Full-featured TVDE transport booking platform with Stripe payment integration, email notifications, and a Strapi CMS backend. Deployed on Vercel + Railway."
+      },
+      {
+        "title": "AI-Powered Web Solutions",
+        "description": "Building web applications enhanced with AI capabilities — from intelligent chatbots to automated content generation and smart data processing pipelines."
+      },
+      {
+        "title": "React CRUD with Material UI",
+        "description": "Complete CRUD application built with React and Material UI, featuring user management, data validation, and responsive design."
+      },
+      {
+        "title": "Authentication System",
+        "description": "User authentication and registration system with React frontend, secure login/register flows, and session management."
+      },
+      {
+        "title": "CPMVE Community Platform",
+        "description": "Community website for Electric Micro Vehicle owners in Portugal, featuring information sharing and community engagement features."
+      },
+      {
+        "title": "PHP MVC Framework",
+        "description": "Custom MVC framework built from scratch in PHP, demonstrating deep understanding of design patterns and web architecture."
+      }
+    ]
+  },
+  "contact": {
+    "label": "05 — Contact",
+    "title": "Let's work together",
+    "subtitle": "Have a project in mind or want to discuss an opportunity? I'd love to hear from you.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "send": "Send Message",
+      "sent": "Message opened in email client!"
+    },
+    "info": {
+      "email": "Email",
+      "location": "Location",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
+  "footer": {
+    "copyright": "Miguel Dias. Built with Next.js & Tailwind CSS."
+  }
+}
