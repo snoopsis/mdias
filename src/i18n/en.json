@@ -57,19 +57,19 @@
         "role": "Fullstack Developer & AI Solutions",
         "company": "Freelance / Self-Employed",
         "period": "2023 — Present",
-        "description": "Building complete web applications with AI integration. Developing booking platforms, CMS-powered websites, and payment systems using Next.js, Strapi, Stripe, and modern AI APIs."
+        "description": "Built a complete TVDE transport booking platform (soprobinario.pt) with Stripe payments, email notifications, and a Strapi CMS backend, deployed on Vercel + Railway. Integrated Claude and OpenAI APIs into web applications for content automation and intelligent workflows. Delivered production-ready full-stack projects for real clients."
       },
       {
         "role": "Web Developer",
         "company": "Freelance Projects",
         "period": "2020 — 2023",
-        "description": "Developed custom web applications for clients including community platforms, admin dashboards, CRUD systems, and e-commerce solutions using React and Node.js."
+        "description": "Developed custom web applications for clients including community platforms, admin dashboards, CRUD systems, and e-commerce solutions. Stack: React, Node.js, Material UI, MongoDB, PHP, WordPress."
       },
       {
         "role": "Self-Taught Developer",
         "company": "Continuous Learning",
         "period": "2019 — 2020",
-        "description": "Started the journey into web development through self-learning. Built foundational projects to master HTML, CSS, JavaScript, PHP, and modern frameworks. Created YouTube tutorials to share knowledge."
+        "description": "Learned web development independently from scratch. Built foundational projects in HTML, CSS, JavaScript, and PHP. Created YouTube tutorials to share knowledge with the community."
       }
     ]
   },
@@ -84,8 +84,12 @@
         "description": "Full-featured TVDE transport booking platform with Stripe payment integration, email notifications, and a Strapi CMS backend. Deployed on Vercel + Railway."
       },
       {
-        "title": "AI-Powered Web Solutions",
-        "description": "Building web applications enhanced with AI capabilities — from intelligent chatbots to automated content generation and smart data processing pipelines."
+        "title": "TVDE Fleet Automation System",
+        "description": "End-to-end workflow automation for a ride-hailing fleet. Integrates Gmail and Google Drive triggers, processes weekly earnings and expense reports per driver, stores data in Supabase, and delivers automated WhatsApp summaries. Built with n8n (self-hosted on Ubuntu with Docker), reducing manual reporting time by ~80%."
+      },
+      {
+        "title": "AI-Integrated Development Workflow",
+        "description": "Systematic use of AI (Claude, GPT-4) to accelerate development cycles — from architecture planning to code generation, review and iterative refinement. Applied across production projects to reduce development time significantly while maintaining code quality."
       },
       {
         "title": "React CRUD with Material UI",

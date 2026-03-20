@@ -1,11 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink, GithubIcon as Github, Globe, CreditCard, Bot, Code2 } from "lucide-react";
+import { ExternalLink, GithubIcon as Github, Globe, CreditCard, Bot, Code2, Zap } from "lucide-react";
 import { useTranslation } from "@/i18n/LanguageContext";
 
 const projectMeta = [
-  { icon: CreditCard, links: { live: "https://www.soprobinario.pt" }, featured: true, tech: ["Next.js", "TypeScript", "Tailwind", "Strapi", "Stripe", "PostgreSQL"] },
+  { icon: CreditCard, links: { live: "https://www.soprobinario.pt" }, featured: true, tech: ["Next.js", "TypeScript", "Strapi", "Stripe", "Railway", "PostgreSQL"] },
+  { icon: Zap, links: {}, featured: true, tech: ["n8n", "Supabase", "Docker", "WhatsApp API", "Google Drive API", "Gmail API", "Ubuntu"] },
   { icon: Bot, links: {}, featured: true, tech: ["Claude API", "OpenAI", "Next.js", "Node.js", "Prompt Engineering"] },
   { icon: Code2, links: { github: "https://github.com/snoopsis/reactMaterialUiCrud" }, featured: false, tech: ["React", "Material UI", "JavaScript", "REST API"] },
   { icon: Code2, links: { github: "https://github.com/snoopsis/reactLoginRegister" }, featured: false, tech: ["React", "Material UI", "Node.js", "Authentication"] },
@@ -38,7 +39,7 @@ export default function Projects() {
         </motion.div>
 
         {/* Featured projects */}
-        <div className="mt-12 grid md:grid-cols-2 gap-6">
+        <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects
             .filter((p) => p.featured)
             .map((project, i) => (

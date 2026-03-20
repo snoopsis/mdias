@@ -57,19 +57,19 @@
         "role": "Fullstack Developer & Soluções IA",
         "company": "Freelance / Independente",
         "period": "2023 — Presente",
-        "description": "Construção de aplicações web completas com integração de IA. Desenvolvimento de plataformas de reservas, websites com CMS e sistemas de pagamento usando Next.js, Strapi, Stripe e APIs modernas de IA."
+        "description": "Criação de uma plataforma completa de reservas TVDE (soprobinario.pt) com pagamentos Stripe, notificações por email e backend Strapi CMS, deployed no Vercel + Railway. Integração das APIs Claude e OpenAI em aplicações web para automação de conteúdo e workflows inteligentes. Entrega de projetos fullstack prontos para produção a clientes reais."
       },
       {
         "role": "Web Developer",
         "company": "Projetos Freelance",
         "period": "2020 — 2023",
-        "description": "Desenvolvimento de aplicações web personalizadas para clientes, incluindo plataformas comunitárias, painéis de administração, sistemas CRUD e soluções de e-commerce usando React e Node.js."
+        "description": "Desenvolvimento de aplicações web personalizadas para clientes, incluindo plataformas comunitárias, painéis de administração, sistemas CRUD e soluções de e-commerce. Stack: React, Node.js, Material UI, MongoDB, PHP, WordPress."
       },
       {
         "role": "Developer Autodidata",
         "company": "Aprendizagem Contínua",
         "period": "2019 — 2020",
-        "description": "Início do percurso no desenvolvimento web através de auto-aprendizagem. Construção de projetos fundamentais para dominar HTML, CSS, JavaScript, PHP e frameworks modernos. Criação de tutoriais no YouTube para partilhar conhecimento."
+        "description": "Aprendizagem de desenvolvimento web de forma independente. Construção de projetos fundamentais em HTML, CSS, JavaScript e PHP. Criação de tutoriais no YouTube para partilhar conhecimento com a comunidade."
       }
     ]
   },
@@ -84,8 +84,12 @@
         "description": "Plataforma completa de reservas de transporte TVDE com integração de pagamentos Stripe, notificações por email e backend Strapi CMS. Deployed no Vercel + Railway."
       },
       {
-        "title": "AI-Powered Web Solutions",
-        "description": "Construção de aplicações web melhoradas com capacidades de IA — desde chatbots inteligentes até geração automática de conteúdo e pipelines de processamento de dados."
+        "title": "Sistema de Automação de Frota TVDE",
+        "description": "Automação de workflow de ponta a ponta para uma frota de transporte. Integra triggers Gmail e Google Drive, processa relatórios semanais de receitas e despesas por motorista, armazena dados no Supabase e envia resumos automáticos via WhatsApp. Construído com n8n (self-hosted em Ubuntu com Docker), reduzindo o tempo de reporte manual em ~80%."
+      },
+      {
+        "title": "Workflow de Desenvolvimento com IA",
+        "description": "Utilização sistemática de IA (Claude, GPT-4) para acelerar ciclos de desenvolvimento — desde planeamento de arquitetura até geração de código, revisão e refinamento iterativo. Aplicado em projetos de produção para reduzir significativamente o tempo de desenvolvimento mantendo qualidade de código."
       },
       {
         "title": "React CRUD com Material UI",

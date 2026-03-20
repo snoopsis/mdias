@@ -32,6 +32,19 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="space-y-5 text-muted leading-relaxed"
           >
+            <div className="flex items-center gap-4 mb-2">
+              <img
+                src="https://avatars.githubusercontent.com/snoopsis"
+                alt="Miguel Dias"
+                width={80}
+                height={80}
+                className="rounded-full object-cover ring-2 ring-accent/20 shrink-0"
+              />
+              <div>
+                <div className="font-semibold text-foreground text-base">Miguel Dias</div>
+                <div className="text-sm text-accent">Fullstack Developer</div>
+              </div>
+            </div>
             <p>{t.about.p1}</p>
             <p>
               {t.about.p2}{" "}
